@@ -17,7 +17,7 @@ Manager::Manager()	//constructor
 	arg_int1 = 0;
 	arg_int2 = 0;
 
-	int arr[10] = { 7, 3, 9, 1, 0, 2, 5, 4 ,8,6 };
+	int arr[10] = { 7, 3, 9, 1, 0, 2, 5, 4 ,6,8 };
 	for (int i = 0; i < 10; i++) {
 		NumberNode* node = new NumberNode();
 		node->SetNumber(arr[i]);
